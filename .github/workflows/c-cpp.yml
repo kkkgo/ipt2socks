@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: make
-      run: make
+      run: make LDFLAGS=-static
     - name: make install
       run: make install
     - name: Upload the bin
