@@ -17,5 +17,5 @@ jobs:
     - name: Upload the bin
       uses: actions/upload-artifact@v3
       with:
-          name: ip2socks
-          path: /usr/local/bin/ip2socks
+          name: ipt2socks
+          path: /usr/local/bin/ipt2socks
