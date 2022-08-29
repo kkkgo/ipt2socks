@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -std=c99 -Wall -Wextra -O2 -pthread
+CFLAGS = -std=c99 -static -Wall -Wextra -O2 -pthread
 LIBS = -lm
 SRCS = ipt2socks.c lrucache.c netutils.c protocol.c
 OBJS = $(SRCS:.c=.o)
