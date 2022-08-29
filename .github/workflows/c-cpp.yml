@@ -14,3 +14,8 @@ jobs:
       run: make
     - name: make install
       run: make install
+    - name: Upload the bin
+      uses: actions/upload-artifact@v3
+      with:
+          name: ip2socks
+          path: /usr/local/bin/ip2socks
